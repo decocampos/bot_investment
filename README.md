@@ -1,4 +1,4 @@
-# bot_financas
+# bot_investment
 I create a bot using selenium that helps me to observe some data in stocks. With theses information I could invest better my money.
 
 This bot use the site investing.com and put some indicators that I use to evaluate if it's the best time to invest in a company.

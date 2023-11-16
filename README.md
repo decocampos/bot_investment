@@ -1,8 +1,14 @@
 # bot_investment
-I create a bot using selenium that helps me to observe some data in stocks. With theses information I could invest better my money.
+Imagine if you had a personal assistant to decide with you the best options to invest in that moment? To facilitate this, I have developed a Robotic Process Automation (RPA) system. By incorporating your curated list and investment thesis, it guides you towards the most favorable opportunities. Rest assured, it's not a scam. Instead, it operates on a user-centric model—you define the parameters that signal the opportune moment to buy. Following your input, it meticulously analyzes the provided stock list, presenting you with options that align with your specified parameters.
 
-This bot use the site investing.com and put some indicators that I use to evaluate if it's the best time to invest in a company.
+**Requirements** 
+pip install selenium
+pip install Pillow
+pip install webdriver_manager
 
-What this bot does is to put the indicators and take a printscreen with the companies that I want to observe. Now I can see the photos and decide which company I want to invest
+You also need to have installed the chromedriver in the correct version of your Google Chrome
+https://chromedriver.chromium.org/downloads < Official Website
 
-For the future it'll only take printscreen of the companies that has an indicator in a specific number to have more focus to know which company is better to invest at the moment
+**You need to change these lines**
+
+

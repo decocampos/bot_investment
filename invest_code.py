@@ -18,21 +18,21 @@ def limpar_arquivos_pasta(caminho_pasta):
     except Exception as e:
         print(f"Erro ao limpar a pasta: {e}")
 
-folder_path = r'C:\Users\USER\Documents\código_investimento\Oportunidades'
+folder_path = r'put the path for a folder to receive all opportunities to buy'
 limpar_arquivos_pasta(folder_path)
-folder_rblc = r'C:\Users\USER\Documents\código_investimento\Rebalancear'
+folder_rblc = r'put the path for a folder to receive all opportunities to sell'
 limpar_arquivos_pasta(folder_rblc)
 
 # Substitua o caminho para o ChromeDriver pelo caminho correto no seu sistema
-chrome_driver_path = r'C:\Users\USER\Documents\código_investimento\chromedriver'
+chrome_driver_path = r'put the correct path of the chromedriver in your computer'
 
 # Configuração do ChromeDriver sem a necessidade de executable_path
 options = webdriver.ChromeOptions()
-options.add_argument("--disable-extensions")  # Desativa extensões para evitar problemas
+options.add_argument("--disable-extensions")  
 driver = webdriver.Chrome(chrome_driver_path, chrome_options=options)
 driver.get('https://www.investing.com/charts/stocks-charts')
 
-empresas=['KO','PG','IAU','JNJ','VOO','TAEE4','ITSA4','TRPL4','TOTS3','WEGE3','AGRO3','MCCI11','BCFF11','XPLG11','BTAL11','MXRF11','TRXF11','SNAG11','XPML11','STAG','BTCBRL','IBOV','IFIX','USDBRL','O','GOOGL','NVDA','NKE','SHY','IEI','IEF','LTN010129']
+empresas=['put a list of codes of companies that you want to buy or analize']
 i=0
 wait=WebDriverWait(driver, 2)
 
